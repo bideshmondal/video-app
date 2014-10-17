@@ -22,7 +22,7 @@ class ApplicationController < ActionController::Base
   def get_tag_cloud
 	  @tag_cloud = Video.tag_counts
 	end
-
+# another line
 # start private command
   private
     def current_user_session
